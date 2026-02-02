@@ -1,0 +1,33 @@
+{
+  "name": "pokemon-evolution-api",
+  "version": "1.0.0",
+  "description": "RESTful API for Pokemon evolutions featuring Gengar, Mimikyu, Charmander, Pikachu, and Jigglypuff with interactive web interface",
+  "main": "pokemon-evolution-api.js",
+  "scripts": {
+    "start": "node pokemon-evolution-api.js",
+    "dev": "nodemon pokemon-evolution-api.js"
+  },
+  "keywords": [
+    "pokemon",
+    "evolution",
+    "api",
+    "rest",
+    "gengar",
+    "charmander",
+    "mimikyu",
+    "pikachu",
+    "jigglypuff",
+    "pokeapi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
