@@ -119,53 +119,6 @@ Available: `fire`, `thunder`, `moon`, `water`, `leaf`
   }
 }
 ```
-
-## 🌐 Hosting Options
-
-### Option 1: Render (Recommended - FREE & Easy)
-
-1. **Create a Render account**: https://render.com/
-2. **Click "New +"** → **"Web Service"**
-3. **Connect your GitHub repository**
-4. **Configure:**
-   - **Name**: `pokemon-evolution-api`
-   - **Environment**: `Node`
-   - **Build Command**: `npm install`
-   - **Start Command**: `npm start`
-   - **Instance Type**: `Free`
-5. **Click "Create Web Service"**
-6. Your API will be live at: `https://pokemon-evolution-api.onrender.com`
-
-**Note:** Free tier sleeps after 15 min of inactivity - first request may be slow.
-
-### Option 2: Railway (FREE with GitHub Student)
-
-1. **Sign up**: https://railway.app/
-2. **New Project** → **Deploy from GitHub repo**
-3. **Select your repository**
-4. **Railway auto-detects Node.js** - just deploy!
-5. **Live at**: `https://your-app.up.railway.app`
-
-### Option 3: Vercel (FREE)
-
-1. **Install Vercel CLI**:
-   ```bash
-   npm i -g vercel
-   ```
-2. **Deploy**:
-   ```bash
-   vercel
-   ```
-3. **Follow prompts** - live in seconds!
-
-### Option 4: Heroku (Paid but Reliable)
-
-1. **Create Heroku account**: https://heroku.com
-2. **Create new app** in dashboard
-3. **Connect to GitHub** and select your repo
-4. **Enable automatic deploys**
-5. **Deploy!**
-
 ## 📁 Project Structure
 
 ```
@@ -183,11 +136,7 @@ pokemon-evolution-api/
 - **Frontend**: HTML5, CSS3 (Custom design), Vanilla JavaScript
 - **Fonts**: Google Fonts (Archivo Black, DM Sans)
 - **Sprites**: PokeAPI GitHub Repository
-
-## 📝 License
-
-MIT License - feel free to use this project however you'd like!
-
+  
 ## 🙏 Credits
 
 - **Pokemon Sprites**: [PokeAPI](https://pokeapi.co/)
